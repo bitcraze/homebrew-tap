@@ -1,26 +1,26 @@
 class Cfcli < Formula
   desc "CLI tool for Crazyflie drones"
   homepage "https://github.com/bitcraze/cfcli"
-  version "0.14.0"
+  version "0.15.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bitcraze/cfcli/releases/download/0.14.0/cfcli-aarch64-apple-darwin.tar.gz"
-      sha256 "24af1192b5bfef5a3348d0678610a8b71482040cd2e8021c88878f8e78afc578"
+      url "https://github.com/bitcraze/cfcli/releases/download/0.15.0/cfcli-aarch64-apple-darwin.tar.gz"
+      sha256 "0de3c1d345185912eaeca0d2339d2b6d826f09c441c141a4d8e886c5c6ee5f02"
     else
-      url "https://github.com/bitcraze/cfcli/releases/download/0.14.0/cfcli-x86_64-apple-darwin.tar.gz"
-      sha256 "151e5120eb3b8585989ec6be513290bd97d23759f44627284e535896860c3afd"
+      url "https://github.com/bitcraze/cfcli/releases/download/0.15.0/cfcli-x86_64-apple-darwin.tar.gz"
+      sha256 "a23e4581ec6d6364d03615b53048b7d40e6af2eac35577e4803249bb975d27b1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bitcraze/cfcli/releases/download/0.14.0/cfcli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ac81cb1f63ccedf4286b037f3acff48e3b98051de8e88fa8b4f5b3433e4a0ddb"
+      url "https://github.com/bitcraze/cfcli/releases/download/0.15.0/cfcli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6b4bd40ebabe41035458fec7e60af30e41a6799209da62d23532ec9cebb4355b"
     else
-      url "https://github.com/bitcraze/cfcli/releases/download/0.14.0/cfcli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "648867bebde2e9dc192c9be2e40f9ea8871a10f1a5e1a8cfd5b6b9d00a1f1c89"
+      url "https://github.com/bitcraze/cfcli/releases/download/0.15.0/cfcli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b01de143ff2c65182bd06f9fce4b889cf2b788f43198220fbebfa0a1438ebd81"
     end
   end
 
